@@ -1,4 +1,5 @@
 # better web frontend
+CRA SPA dashboard for display incident information on a filterable map. includes basic support for incident "details". Content for display in `reports/`
 ## Getting Started
 First, install [Volta](https://volta.sh/). Volta manages local Node versions easily 
 
