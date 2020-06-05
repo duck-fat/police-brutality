@@ -10,13 +10,13 @@ Open a new bash instance and install [Node](https://nodejs.org/en/). We'll use `
 
 Finally, install project dependencies. From the root of the repository, `cd web && npm install`. This project uses __[Create React App](https://create-react-app.dev/)__ with a __[Typescript template](https://create-react-app.dev/docs/adding-typescript/)__.
 ### Getting Started with Component Development
-This project uses __[React Cosmos](https://github.com/react-cosmos/react-cosmos)__ for isolated component development
+This project uses __[React Storybook](https://storybook.js.org/)__ for isolated component development
 
-* `npm run cosmos` to start React Cosmos
-* React Cosmos docs [here](https://github.com/react-cosmos/react-cosmos/tree/master/docs#how-to-create-fixture-files)
-* Fixtures are located at `src/__fixtures__/`
-  * [Example fixture](web/src/__fixtures__/Hello.tsx)
-* Components are located at `src/compoents/`
+* `npm run storybook` to start a local React Storybook server
+* React Storybook docs [here](https://storybook.js.org/docs/basics/introduction/)
+* Stories are located at `src/stories/`
+  * [Example story](./web/src/stories/1-Button.stories.js)
+* Components are located at `src/components/`
 * Currently using [Emotion](https://github.com/emotion-js/emotion) to get things styled quickly
   * probably need a holistic solution for things like colors, spacing, etc
 
